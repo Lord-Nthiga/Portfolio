@@ -1,0 +1,17 @@
+body {
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    float: none;
+    text-align: center;
+    position: fixed;
+    color: white;
+    height: auto;
+    width: 1550px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 17px;
+}

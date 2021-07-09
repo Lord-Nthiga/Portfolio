@@ -1,11 +1,71 @@
 body {
-    background-image: url(back1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    background-image: url(back1.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
 }
 #m1 {
-    position: unset;
-    float: right;
-    background-attachment: scroll;
+    position: absolute;
+    width: 599px;
+    height: 781px;
+    left: 796px;
+    top: 132px;
+}
+#T {
+   position: absolute;
+    width: auto;
+    height: 50px;
+    left: 44px;
+    top: 132px;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    color: #FFFFFF;
+}
+#i {
+    border-top: solid;
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 31px;
+    top: 820px;
+    font-family: Risque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+#bout {
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    left: 48px;
+    top: 900px;
+}
+#cntct {
+    position: absolute;
+    width: 90px;
+    height: 21px;
+    left: 228px;
+    top: 900px;
+}
+#int {
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 435px;
+    top: 900px;
+}
+#proj {
+    position: absolute;
+    width: 89px;
+    height: 31px;
+    left: 637px;
+    top: 900px;
 }

@@ -1,18 +1,30 @@
 #vid1 {
-    background-attachment: fixed;
-    background-position: center;
+  position: absolute;
     width: 100%;
 }
 .content {
+  font-size: 13px;
     border-radius: 17px;
     background-color: rgba(255, 255, 255, 0.26);  
     backdrop-filter: blur(8px);
     text-align: center;
     position: absolute;
-    top: 17px; 
-    color: #f1f1f1;
+    top: 8px; 
+    color: black;
     width: auto;
     padding: 20px;
     left: 460px;
   }
-  
+  .footer {
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: 13px;
+    top: 630px;
+    height: auto;
+    color: black;
+    text-align: center;
+    border-radius: 17px;
+    position: absolute;
+    width: auto;
+    background-color:  rgba(255, 255, 255, 0.17);
+ }
